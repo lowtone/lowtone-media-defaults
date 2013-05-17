@@ -70,6 +70,8 @@ namespace lowtone\media\defaults {
 
 					}, "media", "lowtone_media_defaults");
 
+					wp_enqueue_script("lowtone_media_defaults", plugins_url("/assets/scripts/lowtone-media-defaults.js", __FILE__), array("jquery"), false, true);
+
 				});
 
 				// Register text domain
