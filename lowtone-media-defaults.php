@@ -70,7 +70,13 @@ namespace lowtone\media\defaults {
 
 					}, "media", "lowtone_media_defaults");
 
-					wp_enqueue_script("lowtone_media_defaults", plugins_url("/assets/scripts/lowtone-media-defaults.js", __FILE__), array("jquery"), false, true);
+					wp_enqueue_media();
+
+					wp_enqueue_script("lowtone_media_defaults", plugins_url("/assets/scripts/jquery.lowtone-media-defaults.js", __FILE__), array("jquery"), false, true);
+					wp_localize_script("lowtone_media_defaults", "lowtone_media_defaults", array(
+							"title" => __("Select default thumbnail", "lowtone_media_defaults"),
+							"button_text" => __("Select default thumbnail", "lowtone_media_defaults"),
+						));
 
 				});
 

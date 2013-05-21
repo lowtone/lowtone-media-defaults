@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Default Media\n"
-"POT-Creation-Date: 2013-05-16 12:50+0100\n"
-"PO-Revision-Date: 2013-05-16 12:51+0100\n"
+"POT-Creation-Date: 2013-05-21 10:48+0100\n"
+"PO-Revision-Date: 2013-05-21 10:49+0100\n"
 "Last-Translator: Paul van der Meijs <info@lowtone.nl>\n"
 "Language-Team: Lowtone <info@lowtone.nl>\n"
 "Language: Dutch\n"
@@ -26,3 +26,7 @@ msgstr "Selecteer standaard media voor berichten."
 #: ../../lowtone-media-defaults.php:61
 msgid "Default thumbnail ID"
 msgstr "Standaard thumbnail ID"
+
+#: ../../lowtone-media-defaults.php:77 ../../lowtone-media-defaults.php:78
+msgid "Select default thumbnail"
+msgstr "Selecteer standaard thumbnail"
